@@ -1,0 +1,383 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 1px 2px 10px #00529F;
+    padding: 6px;
+}
+.detalhe{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12px;
+    background-color: rgb(27, 27, 27);
+    color: aliceblue;
+}
+.image{
+    display: flex;
+    align-items: center;
+}
+.image img{
+    height: 64px;
+    width: 122px;
+}
+.image h1{
+    display: flex;
+    color: #00529F;
+    font-weight: lighter;
+}
+.image span{
+    font-weight: bold;
+}
+.links a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    padding: 12px;
+    border-radius: 48px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+.links a:hover{
+    background-color: #00529F;
+    color: aliceblue;
+    padding: 12px;
+    border-radius: 48px;
+    transition: 0.5s;
+}
+#ativado{
+    background-color: #00529F;
+    color: aliceblue;
+    padding: 12px;
+    border-radius: 48px;
+}
+.links span{
+    color: #00529F;
+}
+.carrousel{
+    margin-top: 12px;
+}
+.carrousel img{
+    width: 100%;
+}
+.text{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.texto{
+    margin-top: 24px;
+    text-align: justify;
+    text-indent: 26px;
+    width: 50%;
+}
+.texto h1{
+    text-align: center;
+    text-decoration: underline 	#F0E68C;
+}
+.texto p{
+    margin: 3px;
+}
+.texto a{
+    text-decoration: none;
+    color: #00529F;
+    font-weight: bold;
+}
+#ativado{
+    background-color: #00529F;
+    color: aliceblue;
+    padding: 12px;
+    border-radius: 48px;
+}
+.jogadores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 48px #00529F;
+}
+.jogadores img{
+    height: 350px;
+    width: 270px;
+}
+.jogadores a{
+    justify-content: space-around;
+    text-decoration: none;
+    background-color: #00529F;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: aliceblue;
+}
+.jogadores a:hover{
+    opacity: 0.5;
+    transition: 0.6s;
+}
+#linha-jogador {
+    margin-top: 20px;
+}
+.jogadores_destaques{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.jogadores_destaques h1{
+    text-decoration: underline 	#F0E68C;
+}
+.jogadores span{
+    text-decoration: underline #F0E68C;
+    font-weight: bold;
+}
+.vini{
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 48px;
+    border: #00529F solid 3px;
+    box-shadow: 2px 4px 8px #000000;
+    margin: 20px;
+}
+.vini h2{
+    text-decoration: underline #00529F;
+}
+.militao{
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 48px;
+    border: #00529F solid 3px;
+    box-shadow: 2px 4px 8px #000000; /* #fce35a */
+    margin: 20px;
+}
+.militao h2{
+    text-decoration: underline #00529F;
+}
+.jogadores p{
+    text-align: justify;
+    margin: 12px 26px;
+    text-indent: 26px;
+}
+.rodrygo{
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 48px;
+    border: #00529F solid 3px;
+    box-shadow: 2px 4px 8px #000000;
+    margin: 20px;
+}
+.rodrygo h2{
+    text-decoration: underline #00529F;
+}
+.titulo{
+    margin-top: 12px;
+}
+.titulo h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lista{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.lista h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.lista a{
+    text-decoration: none;
+    color: #00529F;
+    font-weight: bold;
+}
+.lista span{
+    color: #00529F;
+    font-weight: bold;
+}
+.lista img{
+    border: #00529F solid 10px;
+    border-radius: 50px;
+    box-shadow: 2px 4px 8px #000000;
+}
+.titulo-destaque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.titulo-destaque{
+    text-decoration: underline 	#F0E68C;
+}
+.destaques{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.destaques iframe{
+    border: #00529F solid 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px #000000;
+}
+.destaques h2{
+    text-align: center;
+    margin: 12px;
+    font-weight: bold;
+    text-decoration: underline #00529F;
+    text-shadow: 1px 2px 2px #F0E68C;
+}
+#vertical {
+    width: 4px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+    color: #000000;
+    background-color: #00529F;
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.patrocinio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.patrocinio img{
+    height: 48px;
+}
+#emi img{
+    width: 68px;
+}
+#up{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #00529F;
+    padding: 23px;
+    margin: 6px;
+    position: fixed;
+    right: 16px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px #333;
+    border-radius: 48px;
+    transition: 0.6s;
+}
+.text-patrocinio{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+.text-patrocinio span{
+    text-decoration: none;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+.tabela{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.titulo-classifi{
+    text-align: center;
+    text-decoration: underline #00529F;
+    margin-top: 12px;
+}
+.ultimojogo-tabela h3{
+    text-align: center;
+    margin-bottom: 12px;
+}
+.ultimojogo-tabela span{
+    text-decoration: none;
+    border-bottom: 2px solid #00529F;
+    padding-bottom: 4px;
+}
+.ultimojogo-tabela img{
+    width: 568px;
+}
+.classific img{
+    width: 720px;
+}
+
+
+   /* Footer */
+
+footer{
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 2px -2px 10px #00529F;
+}
+.logo-footer img{
+    width: 94px;
+    height: 94px;
+}
+.logo-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.central{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hastag1{
+    font-size: 20px;
+    color: #00529F;
+}
+.icons{
+    padding: 12px;
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #00529F;
+    padding: 12px;
+    border-radius: 50%;
+}
+.icons a:hover{
+    opacity: 0.5;
+    transition: 0.6s;
+}
+.icons span{
+    color: #00529F;
+}
+.copy{
+    background-color: rgb(27, 27, 27);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+.siga{
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 7px;
+}
+.siga h3{
+    color: #333;
+}
+.siga span{
+    text-decoration: none;
+    border-bottom: 2px solid #00529F;
+    padding-bottom: 5px;
+}
